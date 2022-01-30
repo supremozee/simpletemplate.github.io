@@ -79,7 +79,8 @@ li {
 .dropdown-content {
   display: none;
   position: absolute;
- background: none
+ background: none;
+  transition: 6s all;
   /*min-width: 160px;
 */ /* z-index: 1;*/
 }
@@ -89,7 +90,6 @@ li {
   text-decoration: none;
   display: block;
   background: none;
-  transition: 6s all;
 }
 .dropdown:hover .dropdown-content {
 	margin-top: 30px;
